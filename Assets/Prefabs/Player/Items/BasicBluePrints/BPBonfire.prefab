@@ -1,0 +1,66 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1295184468410246}
+  m_IsPrefabParent: 1
+--- !u!1 &1295184468410246
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4552636794425334}
+  - component: {fileID: 114645859341605298}
+  m_Layer: 0
+  m_Name: BPBonfire
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4552636794425334
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1295184468410246}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 6.9364862, y: -10.311596, z: 0.009589374}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114645859341605298
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1295184468410246}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4cfe04a4e9d85bd489da67067c4829e6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_UseSound: swing
+  m_ThrowMin: 0
+  m_ThrowMax: 0
+  m_TimeCost: 0
+  m_SecondaryItem: {fileID: 0}
+  m_GhostPrefab: {fileID: 1775637003370100, guid: fe7ac2ff72edae94fb3e94683d2506f4,
+    type: 2}
+  m_PlacementRange: 2
+  m_PlacementOffset: {x: 0, y: 0, z: 1}
+  m_PlacementType: 0
+  m_StructurePrefab: {fileID: 1775637003370100, guid: 792ea1aea4ce8304599d49e2c370a324,
+    type: 2}
+  m_CanRotate: 0

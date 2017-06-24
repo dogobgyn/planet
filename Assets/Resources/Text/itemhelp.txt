@@ -1,0 +1,18 @@
+name,prettyname,help
+tractorbeam,Tractor Beam,Primary(Hold): Tractor / Secondary(Hold): Hard Force
+rock,Rock,Primary: Hold down to aim and throw
+axe,Axe,Primary: Chop / Secondary(Hold): Hold down to aim and throw
+shovel,Shovel,Primary: Dig
+rope,Rope,Primary: Click to throw, ends can be reconnected with tractor beam
+bpwoodcrate,Wood Crate Blueprint,Primary: Place structure on open space
+bpwoodplatform,Wood Platform Blueprint,Primary: Place structure on open space
+bpwoodlift,Wood Lift Blueprint,Primary: Place structure- press up and down to control
+bpbonefire,Bonfire Blueprint,Primary: Place structure- light up darkness
+dowsingrod,Dowing Rod,Primary: Click to see pointing to nearest oreteleport
+surveyflare,Survey Flare,Primary: Click to throw- shows nearby ore
+dynamite,Dynamite,Primary(Hold): Hold to aim and throw long fuse/Secondary: Short fuse
+coppermusket,Copper Musket,Primary(Hold): Hold to aim and shoot
+grapplinghook,Grappling Hook,Primary: Shoot- rope sticks to first thing hit
+copperwinch,Copper Winch,Primary: Click near rope to pull rope up- connect ore to rope for use
+coppershovel,Copper Shovel,Primary: Dig
+coppercable,Copper Cable,Primary: Click to throw- ends can be reconnected with tractor beam conducts power

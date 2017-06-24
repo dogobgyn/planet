@@ -1,0 +1,301 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1871521636656064}
+  m_IsPrefabParent: 1
+--- !u!1 &1871521636656064
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4289455447260784}
+  - component: {fileID: 114715086303580388}
+  m_Layer: 0
+  m_Name: ItemDatabase
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4289455447260784
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1871521636656064}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114715086303580388
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1871521636656064}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c84f2c36655db5a45982d90ed1c130ad, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Categories:
+  - m_Name: Basic
+    m_Entries:
+    - m_Name: stick
+      m_Icon: {fileID: 21300000, guid: d03b88dd8e7086242a64c8dc7a0dc753, type: 3}
+      m_Item: {fileID: 0}
+      m_Props: 
+    - m_Name: rock
+      m_Icon: {fileID: 21300000, guid: 2f6461798c54e7340b1a078aae2b1541, type: 3}
+      m_Item: {fileID: 114792888244013608, guid: 43c6000692bc9a54987369fa3ab9ebfd,
+        type: 2}
+      m_Props: 
+    - m_Name: fiber
+      m_Icon: {fileID: 21300000, guid: 77331a10715de5d42b3fc96c8c7e9d0c, type: 3}
+      m_Item: {fileID: 0}
+      m_Props: 
+    - m_Name: wood
+      m_Icon: {fileID: 21300000, guid: fbe7110017e23d345a0d62bd233b2270, type: 3}
+      m_Item: {fileID: 0}
+      m_Props: 
+    - m_Name: magnesium
+      m_Icon: {fileID: 21300000, guid: 55f585545a6025d46a3afb23371d329a, type: 3}
+      m_Item: {fileID: 0}
+      m_Props: 
+    - m_Name: lodestone
+      m_Icon: {fileID: 21300000, guid: a8638c0869c644d449e6bf8a63bc3840, type: 3}
+      m_Item: {fileID: 0}
+      m_Props: 
+  - m_Name: BasicTools
+    m_Entries:
+    - m_Name: axe
+      m_Icon: {fileID: 21300000, guid: 351cfb69e809b4445bf6d9a0c588d76a, type: 3}
+      m_Item: {fileID: 114524120560244100, guid: f6ab8015d3ca4844fb456480eab70d40,
+        type: 2}
+      m_Props: axe=1
+    - m_Name: shovel
+      m_Icon: {fileID: 21300000, guid: 481ce79c11f4a394dbde0afb353d633b, type: 3}
+      m_Item: {fileID: 114766981234177488, guid: 1c55f90421fc9534cb9c50e9cb0d6489,
+        type: 2}
+      m_Props: power=1
+    - m_Name: spear
+      m_Icon: {fileID: 21300000, guid: a50532c03bc3a0244acb37e538e4d548, type: 3}
+      m_Item: {fileID: 114524120560244100, guid: c7883c5cc8a446340bebc77cc921ca1d,
+        type: 2}
+      m_Props: 
+    - m_Name: rope
+      m_Icon: {fileID: 21300000, guid: 2a801ac69c44fff4abb5e6deefe22465, type: 3}
+      m_Item: {fileID: 114201882944222006, guid: bb1798ba91eeffc40b51dd5297fd4a22,
+        type: 2}
+      m_Props: 
+  - m_Name: BasicBlueprints
+    m_Entries:
+    - m_Name: bpwoodcrate
+      m_Icon: {fileID: 21300000, guid: 6db844e2be457a94abde17e3b711b2c7, type: 3}
+      m_Item: {fileID: 114774234720914246, guid: 3c1d091b5904c4c4e939bc3d16f83235,
+        type: 2}
+      m_Props: 
+    - m_Name: bpwoodplatform
+      m_Icon: {fileID: 21300000, guid: 6db844e2be457a94abde17e3b711b2c7, type: 3}
+      m_Item: {fileID: 114017219223761858, guid: 0cfff8a6338805141bd0a9f84b86396d,
+        type: 2}
+      m_Props: 
+    - m_Name: bpwoodscaffolding
+      m_Icon: {fileID: 21300000, guid: 6db844e2be457a94abde17e3b711b2c7, type: 3}
+      m_Item: {fileID: 114645859341605298, guid: 8bad1cf43f2c8b84fb8f60f3aa6b5d78,
+        type: 2}
+      m_Props: 
+    - m_Name: bpwoodlift
+      m_Icon: {fileID: 21300000, guid: 6db844e2be457a94abde17e3b711b2c7, type: 3}
+      m_Item: {fileID: 114017219223761858, guid: 11f20965081815849b60c8ee1cd29ccb,
+        type: 2}
+      m_Props: 
+  - m_Name: BasicStarter
+    m_Entries:
+    - m_Name: rocketboots
+      m_Icon: {fileID: 21300000, guid: df3a510ede157404783d9a7a4aaae612, type: 3}
+      m_Item: {fileID: 114828024478782516, guid: 949d9525098330846939fffaace20938,
+        type: 2}
+      m_Props: energy=100-100;persist=1
+    - m_Name: tractorbeam
+      m_Icon: {fileID: 21300000, guid: 13e14bed7c2463249b2d2c98d1c632da, type: 3}
+      m_Item: {fileID: 114138973680409152, guid: 3623971e60ec6b74182afa722dce5df2,
+        type: 2}
+      m_Props: energy=100-100;persist=1
+  - m_Name: BasicLight
+    m_Entries:
+    - m_Name: bpbonfire
+      m_Icon: {fileID: 21300000, guid: b51c607009c7faf4ab0760e832715d81, type: 3}
+      m_Item: {fileID: 114645859341605298, guid: 1b740978205eb9f47b08753a76ee89d3,
+        type: 2}
+      m_Props: 
+  - m_Name: BasicStoredResources
+    m_Entries:
+    - m_Name: orecarbon
+      m_Icon: {fileID: 21300000, guid: 9f023c6be661a8a4396ad43da5012d38, type: 3}
+      m_Item: {fileID: 0}
+      m_Props: 
+    - m_Name: oreiron
+      m_Icon: {fileID: 21300000, guid: c5ed1d36c7874204097a2ed1b4eed7ba, type: 3}
+      m_Item: {fileID: 0}
+      m_Props: 
+    - m_Name: orecopper
+      m_Icon: {fileID: 21300000, guid: e830bb4b6b0e854418076b59b7593eea, type: 3}
+      m_Item: {fileID: 0}
+      m_Props: 
+    - m_Name: oreteleport
+      m_Icon: {fileID: 21300000, guid: b1b24ffd915935d4ba9c2502fa2b1ada, type: 3}
+      m_Item: {fileID: 0}
+      m_Props: 
+    - m_Name: oretitanium
+      m_Icon: {fileID: 21300000, guid: 8a9815132496ed8429cbbeff727c12f8, type: 3}
+      m_Item: {fileID: 0}
+      m_Props: 
+    - m_Name: oresulfur
+      m_Icon: {fileID: 21300000, guid: be09c85b97a9a374e991a0fe0ba74f11, type: 3}
+      m_Item: {fileID: 0}
+      m_Props: 
+  - m_Name: BasicTools2
+    m_Entries:
+    - m_Name: dowsingrod
+      m_Icon: {fileID: 21300000, guid: 5d36d2134ceec8445bd7268276e502e0, type: 3}
+      m_Item: {fileID: 114861985258739244, guid: 7d70f906a5c3c494bb5f4bb0c5942621,
+        type: 2}
+      m_Props: 
+    - m_Name: surveyflare
+      m_Icon: {fileID: 21300000, guid: 5a04dcc996773f04e9967554281e186b, type: 3}
+      m_Item: {fileID: 114792888244013608, guid: 621859c64fd5e6d489f1e2420caa4127,
+        type: 2}
+      m_Props: 
+  - m_Name: BasicRewards
+    m_Entries:
+    - m_Name: viscera
+      m_Icon: {fileID: 21300000, guid: a8e981a80f6b47047a06e7f7d91f2016, type: 3}
+      m_Item: {fileID: 0}
+      m_Props: 
+    - m_Name: experience
+      m_Icon: {fileID: 21300000, guid: 8b6a5af1912d05e4fa69ee451482ff7e, type: 3}
+      m_Item: {fileID: 0}
+      m_Props: 
+    - m_Name: ingenuity
+      m_Icon: {fileID: 21300000, guid: a8e981a80f6b47047a06e7f7d91f2016, type: 3}
+      m_Item: {fileID: 0}
+      m_Props: 
+  - m_Name: BasicExplosive
+    m_Entries:
+    - m_Name: dynamite
+      m_Icon: {fileID: 21300000, guid: 297616ffefa29434aa723797024e5047, type: 3}
+      m_Item: {fileID: 114792888244013608, guid: bd3e54f48e43dd640b9b6708aa7ada86,
+        type: 2}
+      m_Props: 
+    - m_Name: coppermusket
+      m_Icon: {fileID: 21300000, guid: 4099333af6d50d047ab577fa8ce0a35d, type: 3}
+      m_Item: {fileID: 114792888244013608, guid: 9f169afa8bf834d46ab2da0f6fa24469,
+        type: 2}
+      m_Props: 
+  - m_Name: CopperItems
+    m_Entries:
+    - m_Name: copperaxe
+      m_Icon: {fileID: 21300000, guid: 5e21f30f494a4ec498e98eff6305153a, type: 3}
+      m_Item: {fileID: 114524120560244100, guid: f10d00135fea854439a21317cbe625a3,
+        type: 2}
+      m_Props: 
+    - m_Name: copperspike
+      m_Icon: {fileID: 21300000, guid: 0098e2132d3a586468fb935791800476, type: 3}
+      m_Item: {fileID: 0}
+      m_Props: 
+    - m_Name: grapplinghook
+      m_Icon: {fileID: 21300000, guid: 2a801ac69c44fff4abb5e6deefe22465, type: 3}
+      m_Item: {fileID: 114201882944222006, guid: 778a8e330e4838547be46ef7d63fe16c,
+        type: 2}
+      m_Props: 
+    - m_Name: copperblade
+      m_Icon: {fileID: 21300000, guid: 0098e2132d3a586468fb935791800476, type: 3}
+      m_Item: {fileID: 114792888244013608, guid: 9523ad58a832c4a40ad4b5606d4d2c48,
+        type: 2}
+      m_Props: 
+    - m_Name: copperwinch
+      m_Icon: {fileID: 21300000, guid: a7e265dfa6662cb4bae90bca071e9a0d, type: 3}
+      m_Item: {fileID: 114696186974194106, guid: df3b35ee378ae724c800e0b78fd42605,
+        type: 2}
+      m_Props: 
+    - m_Name: copperplate
+      m_Icon: {fileID: 21300000, guid: 0098e2132d3a586468fb935791800476, type: 3}
+      m_Item: {fileID: 0}
+      m_Props: 
+    - m_Name: coppershovel
+      m_Icon: {fileID: 21300000, guid: d6730b1b0a47ede40bd39e1960f9bfc7, type: 3}
+      m_Item: {fileID: 114766981234177488, guid: faa06c6ca5d1fd34db31977290e0457c,
+        type: 2}
+      m_Props: power=1
+    - m_Name: coppercable
+      m_Icon: {fileID: 21300000, guid: c57a437540a118e4c8a057dde1065585, type: 3}
+      m_Item: {fileID: 114201882944222006, guid: 8c54a3424a8b67a4cb5989fe606b4d3f,
+        type: 2}
+      m_Props: 
+  - m_Name: IronItems
+    m_Entries:
+    - m_Name: ironaxe
+      m_Icon: {fileID: 21300000, guid: 351cfb69e809b4445bf6d9a0c588d76a, type: 3}
+      m_Item: {fileID: 114524120560244100, guid: 620a66381f2406f4db150df79bdf9300,
+        type: 2}
+      m_Props: 
+  - m_Name: CopperBlueprints
+    m_Entries:
+    - m_Name: bpcopperformer
+      m_Icon: {fileID: 21300000, guid: 6db844e2be457a94abde17e3b711b2c7, type: 3}
+      m_Item: {fileID: 114645859341605298, guid: b068f87efa407cb41a8e423d618c0783,
+        type: 2}
+      m_Props: 
+    - m_Name: bpcopperrefiner
+      m_Icon: {fileID: 21300000, guid: 6db844e2be457a94abde17e3b711b2c7, type: 3}
+      m_Item: {fileID: 114645859341605298, guid: af953db31852ff04e808ff93c0eaaa17,
+        type: 2}
+      m_Props: 
+    - m_Name: bpcopperplatform
+      m_Icon: {fileID: 21300000, guid: 6db844e2be457a94abde17e3b711b2c7, type: 3}
+      m_Item: {fileID: 114645859341605298, guid: 6f1e7c352b8351b409fef583e0f1b3b1,
+        type: 2}
+      m_Props: 
+    - m_Name: bplamp
+      m_Icon: {fileID: 21300000, guid: 6db844e2be457a94abde17e3b711b2c7, type: 3}
+      m_Item: {fileID: 114645859341605298, guid: 3fcdc32b0c977e9458a0c5f4cbf98558,
+        type: 2}
+      m_Props: 
+  - m_Name: IronItems
+    m_Entries: []
+  - m_Name: Teleport/MysteryItems
+    m_Entries:
+    - m_Name: fallinsurance
+      m_Icon: {fileID: 21300000, guid: bd8aecd733fffe54f8ed38a9869dad0c, type: 3}
+      m_Item: {fileID: 114961270369621980, guid: 0398344e842c8e943afceeea18269574,
+        type: 2}
+      m_Props: 
+    - m_Name: wormhole
+      m_Icon: {fileID: 21300000, guid: 249825fd9f253184c961916fdcdd8a55, type: 3}
+      m_Item: {fileID: 114488911221990160, guid: 3fe4bbfe01936b8488b25ab61af3dac5,
+        type: 2}
+      m_Props: 
+    - m_Name: powercore
+      m_Icon: {fileID: 21300000, guid: f817e8fcf19e8fc479fb2af88638d35b, type: 3}
+      m_Item: {fileID: 114718080673316262, guid: 002b74d4829f2194ba2dd6c90d7af533,
+        type: 2}
+      m_Props: energy=100-100;persist=1
+    - m_Name: singularity
+      m_Icon: {fileID: 21300000, guid: a8e981a80f6b47047a06e7f7d91f2016, type: 3}
+      m_Item: {fileID: 114466718785808462, guid: 9fccc75f4f8a57546bf534e93d411ae7,
+        type: 2}
+      m_Props: 
