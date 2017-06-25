@@ -1,0 +1,2 @@
+Art/Sounds either created by me or found at https://opengameart.org/ - individual art licenses can slightly vary depending on creator.
+Code is MIT License except for any code marked otherwise.  Please use and make something cool with it.
